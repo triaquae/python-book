@@ -1,0 +1,48 @@
+{
+  "title": "Python全栈开发之路",
+  "description": "come from luffycity",
+  "author":"alex",
+  "language": "zh-hans",
+  "links" : {
+    "sidebar" : {
+        "路飞学城" : "http://luffycity.com"
+    }
+  },
+  "theme-default": {
+      "showLevel": true
+  },
+  
+  
+  "plugins": [
+    "-highlight",
+    "toggle-chapters",
+    "codeblock-filename",
+    "sectionx",
+    "splitter",
+    "-search",
+    "-lunr",
+    "search-pro",
+    "theme-comscore",
+    "include"
+
+  ],
+  "pluginsConfig": {
+    "search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["Gitbook Use"]
+    },
+  "sharing": {
+      "weibo": true,
+      "facebook": true,
+      "twitter": true,
+      "google": false,
+      "instapaper": false,
+      "vk": false,
+      "all": [
+          "facebook", "google", "twitter",
+              "weibo", "instapaper"
+      ]
+    }
+  }
+}
+
