@@ -287,7 +287,7 @@
   * [2.11 hash是个什么东西](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/211-hashshi-ge-shi-yao-dong-xi.md)
   * [2.12 用Python操作文件](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/212-yong-python-cao-zuo-wen-jian.md)
   * [2.13 本章练习题&作业](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/213-ben-zhang-lian-xi-989826-zuo-ye.md)
-* 第3章 Python基础-函数编程\(new\)
+* [第3章 Python基础-函数编程\(new\)](di-3-zhang-python-ji-7840-han-shu-bian-7a0b28-new.md)
   * [3.1 上章补充-Bytes类型](31-shang-zhang-bu-5145-bytes-lei-xing.md)
   * [3.2 上章补充-字符编码的转换](32-shang-zhang-bu-5145-zi-fu-bian-ma-de-zhuan-huan.md)
   * [3.3 上章补充-深浅copy](33-shang-zhang-bu-5145-shen-qian-copy.md)
@@ -317,6 +317,4 @@
   * [4.11 软件开发目录设计规范](di-4-zhang-python-ji-chu-chang-yong-mo-kuai/411-ruan-jian-kai-fa-mu-lu-she-ji-gui-fan.md)
   * [4.12 包&跨模块代码调用](di-4-zhang-python-ji-chu-chang-yong-mo-kuai/412-530526-kua-mo-kuai-dai-ma-diao-yong.md)
   * [4.13 练习题&作业](di-4-zhang-python-ji-chu-chang-yong-mo-kuai/413-lian-xi-989826-zuo-ye.md)
-
-
 
