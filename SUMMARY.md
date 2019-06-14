@@ -276,6 +276,7 @@
 * [第2章 Python基础-数据类型和文件操作\(new\)](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo.md)
   * [2.1 上章补充-变量的创建过程](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/22-shang-zhang-bu-5145-bian-liang-de-chuang-jian-guo-cheng.md)
   * [2.2 上章补充-身份运算和None](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/22-shang-zhang-bu-5145-shen-fen-yun-suan-he-none.md)
+  * [2.3 细讲数据类型-列表](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/23-xi-jiang-shu-ju-lei-578b-08-lie-biao.md)
 * 第3章 Python基础-函数编程\(new\)
 * [第4章 Python基础 常用模块\(new\)](di-4-zhang-python-ji-chu-chang-yong-mo-kuai.md)
 
