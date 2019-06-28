@@ -21,8 +21,8 @@
   * [1.14 Python开发规范指南](di-1-zhang-python-ji-chu/114-pythonkai-fa-gui-fan-zhi-nan.md)
     * [1.14.1 Python风格规范](di-1-zhang-python-ji-chu/114-pythonkai-fa-gui-fan-zhi-nan/1141-pythonfeng-ge-gui-fan.md)
     * [1.14.2 Python语言规范](di-1-zhang-python-ji-chu/114-pythonkai-fa-gui-fan-zhi-nan/pythonyu-yan-gui-fan.md)
-
 * [第2章  Python基础 （旧版）](di-2-zhang-python-ji-chu-2.md)
+
   * [2.1 上节拾遗](di-2-zhang-python-ji-chu-2/21-shang-jie-shi-yi.md)
   * [2.2 二进制](di-2-zhang-python-ji-chu-2/22-er-jin-zhi.md)
   * [2.3 字符编码](di-2-zhang-python-ji-chu-2/23-zi-fu-bian-ma.md)
@@ -36,6 +36,7 @@
   * [2.11 collections模块](di-2-zhang-python-ji-chu-2/210-collectionsmo-kuai.md)
   * [2.12 本章小结](di-2-zhang-python-ji-chu-2/211-ben-zhang-xiao-jie.md)
     * [习题答案](di-2-zhang-python-ji-chu-2/211-ben-zhang-xiao-jie/xi-ti-da-an.md)
+
 * [第3章  Python基础—文件操作&函数（旧版）](di-3-zhang-python-ji-chu-2014-wen-jian-cao-4f5c26-han-shu.md)
   * [3.1 上节拾遗](di-3-zhang-python-ji-chu-2014-wen-jian-cao-4f5c26-han-shu/31-shang-jie-shi-yi.md)
   * [3.2 三元运算](di-3-zhang-python-ji-chu-2014-wen-jian-cao-4f5c26-han-shu/32-san-yuan-yun-suan.md)
