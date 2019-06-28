@@ -2,9 +2,10 @@
 
 * [目录](README.md)
 
-* [第1章     Python基础\(旧版\)](di-1-zhang-python-ji-chu/chapter1.md)
+* [第1章     Python基础(旧版)](di-1-zhang-python-ji-chu/chapter1.md)
 
-* * [1.1 编程语言介绍](di-1-zhang-python-ji-chu/bi.md)
+  * [1.1 编程语言介绍](di-1-zhang-python-ji-chu/bi.md)
+
   * [1.2 Python介绍](di-1-zhang-python-ji-chu/12-pythonjie-shao.md)
   * [1.3 Python安装](di-1-zhang-python-ji-chu/13-pythonan-zhuang.md)
   * [1.4 第一个Python程序](di-1-zhang-python-ji-chu/14-di-yi-ge-python-cheng-xu.md)
@@ -21,6 +22,7 @@
   * [1.14 Python开发规范指南](di-1-zhang-python-ji-chu/114-pythonkai-fa-gui-fan-zhi-nan.md)
     * [1.14.1 Python风格规范](di-1-zhang-python-ji-chu/114-pythonkai-fa-gui-fan-zhi-nan/1141-pythonfeng-ge-gui-fan.md)
     * [1.14.2 Python语言规范](di-1-zhang-python-ji-chu/114-pythonkai-fa-gui-fan-zhi-nan/pythonyu-yan-gui-fan.md)
+
 * [第2章  Python基础 （旧版）](di-2-zhang-python-ji-chu-2.md)
 
   * [2.1 上节拾遗](di-2-zhang-python-ji-chu-2/21-shang-jie-shi-yi.md)
