@@ -230,8 +230,8 @@
   * [10.13 Django与Ajax](1013-djangoyu-ajax.md)
   * [10.14习题](1014xi-ti.md)
 * [第11章  BBS项目（博客系统）](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09.md)
-  * 11.1 基于Ajax和用户认证系统的登录验证
-  * 11.2 基于Ajax和forms组件的实现注册功能
+  * [11.1 基于Ajax和用户认证系统的登录验证](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/111-ji-yu-ajax-he-yong-hu-ren-zheng-xi-tong-de-deng-lu-yan-zheng.md)
+  * [11.2 基于Ajax和forms组件的实现注册功能](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/112-ji-yu-ajax-he-forms-zu-jian-de-shi-xian-zhu-ce-gong-neng.md)
   * 11.3 系统首页的布局渲染
   * 11.4 个人站点的文章，标签，分类查询
   * 11.5 文章详细页的设计
