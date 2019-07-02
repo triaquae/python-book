@@ -423,7 +423,7 @@ while True:
     recv_size=0
     recv_data=b''
     while recv_size < data_len:
-        recv_data+=client.recv(1024)
+        recv_data=client.recv(1024)
         recv_size+=len(recv_data)
 
     print(recv_data.decode('utf-8'))
