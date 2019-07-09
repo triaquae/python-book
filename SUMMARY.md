@@ -1,11 +1,8 @@
 # Summary
 
 * [目录](README.md)
-
-* [第1章     Python基础(旧版)](di-1-zhang-python-ji-chu/chapter1.md)
-
+* [第1章     Python基础\(旧版\)](di-1-zhang-python-ji-chu/chapter1.md)
   * [1.1 编程语言介绍](di-1-zhang-python-ji-chu/bi.md)
-
   * [1.2 Python介绍](di-1-zhang-python-ji-chu/12-pythonjie-shao.md)
   * [1.3 Python安装](di-1-zhang-python-ji-chu/13-pythonan-zhuang.md)
   * [1.4 第一个Python程序](di-1-zhang-python-ji-chu/14-di-yi-ge-python-cheng-xu.md)
@@ -22,9 +19,7 @@
   * [1.14 Python开发规范指南](di-1-zhang-python-ji-chu/114-pythonkai-fa-gui-fan-zhi-nan.md)
     * [1.14.1 Python风格规范](di-1-zhang-python-ji-chu/114-pythonkai-fa-gui-fan-zhi-nan/1141-pythonfeng-ge-gui-fan.md)
     * [1.14.2 Python语言规范](di-1-zhang-python-ji-chu/114-pythonkai-fa-gui-fan-zhi-nan/pythonyu-yan-gui-fan.md)
-
 * [第2章  Python基础 （旧版）](di-2-zhang-python-ji-chu-2.md)
-
   * [2.1 上节拾遗](di-2-zhang-python-ji-chu-2/21-shang-jie-shi-yi.md)
   * [2.2 二进制](di-2-zhang-python-ji-chu-2/22-er-jin-zhi.md)
   * [2.3 字符编码](di-2-zhang-python-ji-chu-2/23-zi-fu-bian-ma.md)
@@ -38,9 +33,7 @@
   * [2.11 collections模块](di-2-zhang-python-ji-chu-2/210-collectionsmo-kuai.md)
   * [2.12 本章小结](di-2-zhang-python-ji-chu-2/211-ben-zhang-xiao-jie.md)
     * [习题答案](di-2-zhang-python-ji-chu-2/211-ben-zhang-xiao-jie/xi-ti-da-an.md)
-
 * [第3章  Python基础—文件操作&函数（旧版）](di-3-zhang-python-ji-chu-2014-wen-jian-cao-4f5c26-han-shu.md)
-
   * [3.1 上节拾遗](di-3-zhang-python-ji-chu-2014-wen-jian-cao-4f5c26-han-shu/31-shang-jie-shi-yi.md)
   * [3.2 三元运算](di-3-zhang-python-ji-chu-2014-wen-jian-cao-4f5c26-han-shu/32-san-yuan-yun-suan.md)
   * [3.3 字符编码转换](di-3-zhang-python-ji-chu-2014-wen-jian-cao-4f5c26-han-shu/33-zi-fu-bian-ma-zhuan-huan.md)
@@ -50,9 +43,7 @@
   * [3.7 生成器&迭代器](di-3-zhang-python-ji-chu-2014-wen-jian-cao-4f5c26-han-shu/37-sheng-cheng-566826-die-dai-qi.md)
   * [3.8 本章小节](di-3-zhang-python-ji-chu-2014-wen-jian-cao-4f5c26-han-shu/38-ben-zhang-xiao-jie.md)
     * [习题答案](di-3-zhang-python-ji-chu-2014-wen-jian-cao-4f5c26-han-shu/38-ben-zhang-xiao-jie/xi-ti-da-an.md)
-
 * [第4章  Python基础—常用模块（旧版）](di-4-zhang-python-ji-chu-2014-chang-yong-mo-kuai.md)
-
   * [4.1 模块、包介绍和相关语法](di-4-zhang-python-ji-chu-2014-chang-yong-mo-kuai/mo-kuai-3001-bao-jie-shao-he-xiang-guan-yu-fa.md)
   * [4.2 time & datetime 模块](di-4-zhang-python-ji-chu-2014-chang-yong-mo-kuai/chang-yong-mo-kuai-xue-xi.md)
   * [4.3 random 模块](di-4-zhang-python-ji-chu-2014-chang-yong-mo-kuai/random-mo-kuai.md)
@@ -71,9 +62,7 @@
   * [4.15 软件开发目录规范](di-4-zhang-python-ji-chu-2014-chang-yong-mo-kuai/ruan-jian-kai-fa-mu-lu-gui-fan.md)
   * [4.16 本章小结](di-4-zhang-python-ji-chu-2014-chang-yong-mo-kuai/ben-zhang-xiao-jie.md)
     * [习题答案](di-4-zhang-python-ji-chu-2014-chang-yong-mo-kuai/ben-zhang-xiao-jie/xi-ti-da-an.md)
-
 * [第5章 面向对象编程设计与开发](di-5-zhang-mian-xiang-dui-xiang-bian-cheng-she-ji-yu-kai-fa.md)
-
   * [面向对象介绍](di-5-zhang-mian-xiang-dui-xiang-bian-cheng-she-ji-yu-kai-fa/mian-xiang-dui-xiang-bian-cheng-jie-shao.md)
   * [类、实例、属性、方法详解](di-5-zhang-mian-xiang-dui-xiang-bian-cheng-she-ji-yu-kai-fa/lei-3001-shi-li-3001-shu-xing-3001-fang-fa-xiang-jie.md)
   * [5.1 什么是面向对象的程序设计](di-5-zhang-mian-xiang-dui-xiang-bian-cheng-she-ji-yu-kai-fa/51-shi-yao-shi-mian-xiang-dui-xiang-de-cheng-xu-she-ji.md)
@@ -93,7 +82,6 @@
   * [5.14 领域模型](di-5-zhang-mian-xiang-dui-xiang-bian-cheng-she-ji-yu-kai-fa/511-mian-xiang-dui-xiang-de-ruan-jian-kai-fa/ling-yu-mo-xing.md)
   * [5.15 异常处理](di-5-zhang-mian-xiang-dui-xiang-bian-cheng-she-ji-yu-kai-fa/514-yi-chang-chu-li.md)
   * [5.16 本章总结](di-5-zhang-mian-xiang-dui-xiang-bian-cheng-she-ji-yu-kai-fa/515-ben-zhang-zong-jie.md)
-
 * [第6章  网络编程-SOCKET开发](di-6-zhang-wang-luo-bian-7a0b-socket-kai-fa.md)
   * [6.1 C/S架构介绍](di-6-zhang-wang-luo-bian-7a0b-socket-kai-fa/61-csjia-gou-jie-shao.md)
   * [6.2 TCP/IP 各层详解](di-6-zhang-wang-luo-bian-7a0b-socket-kai-fa/62.md)
@@ -262,23 +250,20 @@
 * [第11章  BBS项目（博客系统）](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09.md)
   * [11.1 基于Ajax和用户认证系统的登录验证](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/111-ji-yu-ajax-he-yong-hu-ren-zheng-xi-tong-de-deng-lu-yan-zheng.md)
   * [11.2 基于Ajax和forms组件的实现注册功能](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/112-ji-yu-ajax-he-forms-zu-jian-de-shi-xian-zhu-ce-gong-neng.md)
-  * 11.3 系统首页的布局渲染
+  * [11.3 系统首页的布局渲染](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/113-xi-tong-shou-ye-de-bu-ju-xuan-ran.md)
   * 11.4 个人站点的文章，标签，分类查询
   * 11.5 文章详细页的设计
   * 11.6 点赞与踩灭功能的实现
   * 11.7 评论功能的实现
   * 11.8 基于富文本编辑器框和beautifulSoup模块防止xss攻击
 * [第12章 CRM项目](di-shi-er-zhang-crm-xiang-mu.md)
-
   * [12.1 权限组件之权限控制](di-shi-er-zhang-crm-xiang-mu/121-quan-xian-zu-jian-zhi-quan-xian-kong-zhi.md)
-
 * [第1章 Python基础语法\(new\)](di-1-zhang-python-ji-chu-yu-6cd528-new.md)
-
   * [1.1 编程语言介绍与分类](di-1-zhang-python-ji-chu-yu-6cd528-new/bian-cheng-yu-yan-jie-shao-yu-fen-lei.md)
   * [1.2 Python介绍、发展趋势](di-1-zhang-python-ji-chu-yu-6cd528-new/pythonjie-shao-3001-fa-zhan-qu-shi.md)
   * [1.3 Python环境安装](di-1-zhang-python-ji-chu-yu-6cd528-new/13-pythonhuan-jing-an-pai.md)
   * [1.4 开发你的第一个Python程序](di-1-zhang-python-ji-chu-yu-6cd528-new/14-kai-fa-ni-de-di-yi-ge-python-cheng-xu.md)
-  * 1.5 选择最好用的PyCharm IDE
+  * [1.5 选择最好用的PyCharm IDE](di-1-zhang-python-ji-chu-yu-6cd528-new/15-xuan-ze-zui-hao-yong-de-pycharm-ide.md)
   * [1.6 变量](di-1-zhang-python-ji-chu-yu-6cd528-new/16-bian-liang.md)
   * [1.7 注释](di-1-zhang-python-ji-chu-yu-6cd528-new/17-zhu-shi.md)
   * [1.8 基本数据类型](di-1-zhang-python-ji-chu-yu-6cd528-new/18-ji-ben-shu-ju-lei-xing.md)
@@ -288,9 +273,7 @@
   * [1.12 流程控制之if...else](di-1-zhang-python-ji-chu-yu-6cd528-new/112-liu-cheng-kong-zhi-zhi-if-else.md)
   * [1.13 流程控制之while循环](di-1-zhang-python-ji-chu-yu-6cd528-new/113-liu-cheng-kong-zhi-zhi-while-xun-huan.md)
   * [1.14 本章练习题&作业](di-1-zhang-python-ji-chu-yu-6cd528-new/114-ben-zhang-lian-xi-989826-zuo-ye.md)
-
 * [第2章 Python基础-数据类型和文件操作\(new\)](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo.md)
-
   * [2.1 上章补充-变量的创建过程](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/22-shang-zhang-bu-5145-bian-liang-de-chuang-jian-guo-cheng.md)
   * [2.2 上章补充-身份运算和None](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/22-shang-zhang-bu-5145-shen-fen-yun-suan-he-none.md)
   * [2.3 细讲数据类型-列表](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/23-xi-jiang-shu-ju-lei-578b-08-lie-biao.md)
@@ -304,7 +287,6 @@
   * [2.11 hash是个什么东西](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/211-hashshi-ge-shi-yao-dong-xi.md)
   * [2.12 用Python操作文件](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/212-yong-python-cao-zuo-wen-jian.md)
   * [2.13 本章练习题&作业](di-2-zhang-python-ji-7840-shu-ju-lei-xing-he-wen-jian-cao-zuo/213-ben-zhang-lian-xi-989826-zuo-ye.md)
-
 * [第3章 Python基础-函数编程\(new\)](di-3-zhang-python-ji-7840-han-shu-bian-7a0b28-new.md)
   * [3.1 上章补充-Bytes类型](31-shang-zhang-bu-5145-bytes-lei-xing.md)
   * [3.2 上章补充-字符编码的转换](32-shang-zhang-bu-5145-zi-fu-bian-ma-de-zhuan-huan.md)
@@ -335,6 +317,4 @@
   * [4.11 软件开发目录设计规范](di-4-zhang-python-ji-chu-chang-yong-mo-kuai/411-ruan-jian-kai-fa-mu-lu-she-ji-gui-fan.md)
   * [4.12 包&跨模块代码调用](di-4-zhang-python-ji-chu-chang-yong-mo-kuai/412-530526-kua-mo-kuai-dai-ma-diao-yong.md)
   * [4.13 练习题&作业](di-4-zhang-python-ji-chu-chang-yong-mo-kuai/413-lian-xi-989826-zuo-ye.md)
-
-
 
