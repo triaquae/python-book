@@ -243,10 +243,10 @@
   * [10.13 Django与Ajax](1013-djangoyu-ajax.md)
   * [10.14习题](1014xi-ti.md)
 * [第11章  BBS项目（博客系统）](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09.md)
-  * [11.1 需求分析和表结构设计](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/111-ji-yu-ajax-he-yong-hu-ren-zheng-xi-tong-de-deng-lu-yan-zheng.md)
+  * [11.1 需求分析和表结构设计](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/113-xi-tong-shou-ye-de-bu-ju-xuan-ran.md)
   * [11.2 基于Ajax和forms组件的实现注册功能](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/112-ji-yu-ajax-he-forms-zu-jian-de-shi-xian-zhu-ce-gong-neng.md)
-  * [11.3 系统首页的布局渲染](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/113-xi-tong-shou-ye-de-bu-ju-xuan-ran.md)
   * 11.4 个人站点的文章，标签，分类查询
+  * [11.3 需求分析和表结构设计](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/111-ji-yu-ajax-he-yong-hu-ren-zheng-xi-tong-de-deng-lu-yan-zheng.md)
   * 11.5 文章详细页的设计
   * 11.6 点赞与踩灭功能的实现
   * 11.7 评论功能的实现
