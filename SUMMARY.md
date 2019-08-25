@@ -247,10 +247,9 @@
   * [11.2 业务实现-数据库迁移](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/112-ji-yu-ajax-he-forms-zu-jian-de-shi-xian-zhu-ce-gong-neng.md)
   * [11.3 业务实现-登陆、注册](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/111-ji-yu-ajax-he-yong-hu-ren-zheng-xi-tong-de-deng-lu-yan-zheng.md)
   * [11.4 业务实现-系统首页](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/114-ge-ren-zhan-dian-de-wen-zhang-ff0c-biao-qian-ff0c-fen-lei-cha-xun.md)
-  * 11.6 点赞与踩灭功能的实现
-  * 11.5 文章详细页的设计
-  * 11.7 评论功能的实现
-  * 11.8 基于富文本编辑器框和beautifulSoup模块防止xss攻击
+  * [11.5 业务实现-个人站点页](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/115-wen-zhang-xiang-xi-ye-de-she-ji.md)
+  * [11.6 业务实现-文章详情页](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/116-ye-wu-shi-73b0-wen-zhang-xiang-qing-ye.md)
+  * [11.7 业务实现-后台管理](di-11-zhang-bbs-xiang-mu-ff08-bo-ke-xi-tong-ff09/117-ye-wu-shi-73b0-hou-tai-guan-li.md)
 * [第12章 CRM项目](di-shi-er-zhang-crm-xiang-mu.md)
   * [12.1 权限组件之权限控制](di-shi-er-zhang-crm-xiang-mu/121-quan-xian-zu-jian-zhi-quan-xian-kong-zhi.md)
 * [第1章 Python基础语法\(new\)](di-1-zhang-python-ji-chu-yu-6cd528-new.md)
