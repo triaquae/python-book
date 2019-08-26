@@ -7,11 +7,11 @@
 re_path('^(?P<username>\w+)/(?P<condition>tag|category|archive)/(?P<param>.*)/$', views.home_site), # home_site(reqeust,username="yuan",condition="tag",param="python")
 
 # 个人站点url
-    
+
 re_path('^(?P<username>\w+)/$', views.home_site), # home_site(reqeust,username="yuan")# 个人站点url
 ```
 
-### **2.5.2 创建视图函数**
+### 1**.2 创建视图函数**
 
 ```python
 def home_site(request, username, **kwargs):
@@ -90,7 +90,7 @@ ret=models.Article.objects.filter(user=user).annotate(month=TruncMonth("create_t
     return render(request, "home_site.html", {"username": username, "blog": blog, "article_list": article_list,})
 ```
 
-### **2.5.3 创建模板**
+### 1**.3 创建模板**
 
 ```html
 # base.html

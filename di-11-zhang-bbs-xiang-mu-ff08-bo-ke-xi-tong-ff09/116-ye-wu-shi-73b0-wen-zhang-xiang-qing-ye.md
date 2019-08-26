@@ -27,7 +27,7 @@ def article_detail(request, username, article_id):
     return render(request, "article_detail.html", locals())
 ```
 
-### 2.6.1 文章详情页的设计
+### 1.1 文章详情页的设计
 
 ```html
 {% extends "base.html" %}
@@ -43,7 +43,7 @@ def article_detail(request, username, article_id):
 {% endblock %}
 ```
 
-### 2.6.2 详情页的inclution\_tag
+### 1.2 详情页的inclution\_tag
 
 因为详情页与个人站点页的模板一致，所以可以直接继承base.html，但是同样会遇到一个问题，即在个人站点视图函数中获取的数据要再写一遍传给模板才能渲染数据出来，这样就会出现代码的复用，所以这里的解决方案用的是django自带的一个inclution\_tag功能，类似于我们之前学习过的django自定义标签
 
@@ -106,7 +106,7 @@ def get_classification_style(username):
 
 这个自定义的标签get\_classification\_style一旦在模板中被调用，首先会执行get\_classification\_style函数内的逻辑然后将返回的数据传送给模板classification.html去渲染，渲染完的结果就是这次get\_classification\_style标签调用的返回值。
 
-### 2.6.3 django的渲染转义问题
+### 1.3 django的渲染转义问题
 
 当我们在数据库输入的文章标签字符串在渲染时出于安全的考虑，dajngo会将标签这样敏感的字符进行转义，防止xss攻击，所以这就导致我们发送给客户端的数据是转义后特殊符号，正文没有任何样式，无法阅读，为了解决这个问题，我们需要对渲染的数据进行safe过滤，无非就是告诉django我们信赖该数据，不需要转义，这样显示就不会有任何问题了。
 
@@ -118,7 +118,7 @@ def get_classification_style(username):
 
 有同学会问，那xss攻击怎么办，其实很简单，我们存在数据库的数据本身就要确保它是以安全的，即数据在入库前是一定要进行筛选的。
 
-### 2.6.4 文章点赞
+### 1.4 文章点赞
 
 #### **创建路由**
 
@@ -235,7 +235,7 @@ def digg(request):
     return JsonResponse(response)
 ```
 
-### 2.6.5 文章评论
+### 1.5 文章评论
 
 #### **创建路由**
 
@@ -274,7 +274,7 @@ path("comment/",views.comment),
         <div class="comments list-group">
 
 
-          
+
             <p>发表评论</p>
             <p>昵称：<input type="text" id="tbCommentAuthor" class="author" disabled="disabled" size="50"
                          value="{{ request.user.username }}">
@@ -459,7 +459,7 @@ def comment(request):
 
             </div>
 
-         
+
 
             <p>评论列表</p>
 
