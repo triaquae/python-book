@@ -1,4 +1,4 @@
-## 练习题【答案在页面的末尾(先自己做再看答案)】
+## 练习题【答案在页面的末尾\(先自己做再看答案\)】
 
 1、请用代码实现：利用下划线将列表的每一个元素拼接成字符串，li＝\[‘alex’, ‘eric’, ‘rain’\]
 
@@ -92,7 +92,7 @@ tu = ("alex", [11, 22, {"k1": 'v1', "k2": ["age", "name"], "k3": (11,22,33)}, 44
 
 13、为什么会出现中文乱码？你能列举出现乱码的情况有哪几种？
 
-14、分别写出在windows和mac上用py2输出中文怎么做？
+14、分别写出在windows和mac上用py2输出中文怎么做？ 
 
 ## 作业
 
@@ -102,8 +102,6 @@ tu = ("alex", [11, 22, {"k1": 'v1', "k2": ["age", "name"], "k3": (11,22,33)}, 44
 ![](https://book.apeland.cn/media/images/2019/06/02/2AC1BA7A-C196-474E-9F77-97D92897252E.png)数据来源：
 
 [东方财富网](http://http//quote.eastmoney.com/center/gridlist.html#hs_a_board)
-
-
 
 开发程序对stock\_data.txt进行以下操作：
 
@@ -159,7 +157,7 @@ print("_".join(li))
 
 2 查找列表中元素，移除每个元素的空格，并查找以a或A开头并且以c结尾的所有元素。
 
-> li = ["alec", " aric", "Alex", "Tony", "rain"]
+> li = \["alec", " aric", "Alex", "Tony", "rain"\]
 
 ```python
 for item in li:
@@ -190,55 +188,55 @@ for item in dic:
         print(value)
 ```
 
-3 3、写代码，有如下列表，按照要求实现每一个功能 li＝[‘alex’, ‘eric’, ‘rain’]
+3 3、写代码，有如下列表，按照要求实现每一个功能 li＝\[‘alex’, ‘eric’, ‘rain’\]
 
-> - 计算列表长度并输出
+> * 计算列表长度并输出
 
 ```python
 print(len(li))
 ```
 
-> - 列表中追加元素“seven”，并输出添加后的列表
+> * 列表中追加元素“seven”，并输出添加后的列表
 
 ```python
 li.append("seven")
 print(li)
 ```
 
-> - 请在列表的第1个位置插入元素“Tony”，并输出添加后的列表
+> * 请在列表的第1个位置插入元素“Tony”，并输出添加后的列表
 
 ```python
 li.insert(1, "Tony")
 print(li)
 ```
 
-> - 请修改列表第2个位置的元素为“Kelly”，并输出修改后的列表
+> * 请修改列表第2个位置的元素为“Kelly”，并输出修改后的列表
 
 ```python
 li[1] = "Kelly"
 print(li)
 ```
 
-> - 请删除列表中的元素“eric”，并输出修改后的列表
+> * 请删除列表中的元素“eric”，并输出修改后的列表
 
 ```python
 li.remove("eric")
 ```
 
-> - 请删除列表中的第2个元素，并输出删除的元素的值和删除元素后的列表
+> * 请删除列表中的第2个元素，并输出删除的元素的值和删除元素后的列表
 
 ```python
 print(li.pop(1))
 print(li)
 ```
 
-> - 请删除列表中的第3个元素，并输出删除元素后的列表
+> * 请删除列表中的第3个元素，并输出删除元素后的列表
 
 ```python
 print(li.pop(2))
 ```
 
-> - 请删除列表中的第2至4个元素，并输出删除元素后的列表
+> * 请删除列表中的第2至4个元素，并输出删除元素后的列表
 
 ```python
 li = ["ale", "eric", "rain", "alex", "luffy", "py"]
@@ -246,28 +244,28 @@ del li[2:5]
 print(li)
 ```
 
-> - 请将列表所有的元素反转，并输出反转后的列表
+> * 请将列表所有的元素反转，并输出反转后的列表
 
 ```python
 li.reverse()
 print(li)
 ```
 
-> - 请使用for、len、range输出列表的索引
+> * 请使用for、len、range输出列表的索引
 
 ```python
 for index in range(len(li)):
     print(index)
 ```
 
-> - 请使用enumrate输出列表元素和序号（序号从100开始）
+> * 请使用enumrate输出列表元素和序号（序号从100开始）
 
 ```python
 for index, ele in enumerate(li):
     print(index, ele)
 ```
 
-> - 请使用for循环输出列表的所有元素
+> * 请使用for循环输出列表的所有元素
 
 ```python
 for i in li:
@@ -282,7 +280,7 @@ li = ["hello", 'seven', ["mon", ["h", "kelly"], 'all'], 123, 446]
 
 > 请根据索引输出“Kelly”
 
-```python 
+```python
 print(li[2][1][1])
 ```
 
@@ -329,25 +327,25 @@ print(tu)
 print(list(s))
 ```
 
->  将字符串s = “alex”转换成元祖
+> 将字符串s = “alex”转换成元祖
 
 ```python
 print(tuple(s))
 ```
 
->  将列表li = [“alex”, “seven”]转换成元组
+> 将列表li = \[“alex”, “seven”\]转换成元组
 
 ```python
 print(tuple(li))
 ```
 
-> 将元组tu = (‘Alex’, “seven”)转换成列表
+> 将元组tu = \(‘Alex’, “seven”\)转换成列表
 
 ```python
 print(list(tu))
 ```
 
-> 将列表li = [“alex”, “seven”]转换成字典且字典的key按照10开始向后递增
+> 将列表li = \[“alex”, “seven”\]转换成字典且字典的key按照10开始向后递增
 
 ```python
 li = ["alex", "seven"]
@@ -361,7 +359,7 @@ print(dic)
 
 7、元素分类
 
->  有如下值li = [11,22,33,44,55,66,77,88,99,90]，将所有大于66的值保存至字典的第一个key中，将小于66的值保存至第二个key的值中。即：{‘k1’:大于66的所有值, ‘k2’:小于66的所有值}
+> 有如下值li = \[11,22,33,44,55,66,77,88,99,90\]，将所有大于66的值保存至字典的第一个key中，将小于66的值保存至第二个key的值中。即：{‘k1’:大于66的所有值, ‘k2’:小于66的所有值}
 
 ```python
 dic = {"k1":[], "k2":[]}
@@ -373,7 +371,7 @@ for i in li:
 print(dic)
 ```
 
-8、在不改变列表数据结构的情况下找最大值li = [1,3,2,7,6,23,41,243,33,85,56]
+8、在不改变列表数据结构的情况下找最大值li = \[1,3,2,7,6,23,41,243,33,85,56\]
 
 ```python
 max_value = li[0]
@@ -403,7 +401,7 @@ for i in li:
 print(close_n)
 ```
 
-10 利用for循环和range输出9 * 9乘法表
+10 利用for循环和range输出9 \* 9乘法表
 
 ```python
 for i in range(1, 10):
