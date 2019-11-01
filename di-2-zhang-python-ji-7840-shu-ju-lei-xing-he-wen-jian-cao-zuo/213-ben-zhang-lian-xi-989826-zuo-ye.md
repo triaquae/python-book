@@ -1,4 +1,4 @@
-## 练习题
+## 练习题【答案在页面的末尾(先自己做再看答案)】
 
 1、请用代码实现：利用下划线将列表的每一个元素拼接成字符串，li＝\[‘alex’, ‘eric’, ‘rain’\]
 
@@ -146,6 +146,297 @@ tu = ("alex", [11, 22, {"k1": 'v1', "k2": ["age", "name"], "k3": (11,22,33)}, 44
 ['37', '300767', '震安科技', '41.13', '10.00%', '3.74', '6.22万', '2.49亿', '10.32%', '41.13', '37.27', '37.48', '37.39', '3.86', '31.11%', '43.32', '3.68']
 ['40', '603327', '福蓉科技', '21.56', '10.00%', '1.96', '3586', '773.1万', '0.00%', '21.56', '21.56', '21.56', '19.6', '2.81', '0.70%', '31.97', '8.05']
 找到6条
+```
+
+练习题答案如下：
+
+1、请用代码实现：利用下划线将列表的每一个元素拼接成字符串，
+
+```
+li = ['alex', 'eric', 'rain']
+print("_".join(li))
+```
+
+2 查找列表中元素，移除每个元素的空格，并查找以a或A开头并且以c结尾的所有元素。
+
+> li = ["alec", " aric", "Alex", "Tony", "rain"]
+
+```python
+for item in li:
+    item = item.strip().replace(" ", "")
+    if (item.startswith("A") or item.startswith("a")) and item.endswith("c"):
+        print(item)
+```
+
+> ```
+> tu = ("alec", " aric", "Alex", "Tony", "rain")
+> ```
+
+```python
+for item in tu:
+    item = item.strip().replace(" ", "")
+    if (item.startswith("A") or item.startswith("a")) and item.endswith("c"):
+        print(item)
+```
+
+> ```
+> dic = {'k1': "alex", 'k2': ' aric', "k3": "Alex", "k4": "Tony"}
+> ```
+
+```python
+for item in dic:
+    value = dic[item].strip().replace(" ", "")
+    if (value.startswith("A") or value.startswith("a")) and value.endswith("c"):
+        print(value)
+```
+
+3 3、写代码，有如下列表，按照要求实现每一个功能 li＝[‘alex’, ‘eric’, ‘rain’]
+
+> - 计算列表长度并输出
+
+```python
+print(len(li))
+```
+
+> - 列表中追加元素“seven”，并输出添加后的列表
+
+```python
+li.append("seven")
+print(li)
+```
+
+> - 请在列表的第1个位置插入元素“Tony”，并输出添加后的列表
+
+```python
+li.insert(1, "Tony")
+print(li)
+```
+
+> - 请修改列表第2个位置的元素为“Kelly”，并输出修改后的列表
+
+```python
+li[1] = "Kelly"
+print(li)
+```
+
+> - 请删除列表中的元素“eric”，并输出修改后的列表
+
+```python
+li.remove("eric")
+```
+
+> - 请删除列表中的第2个元素，并输出删除的元素的值和删除元素后的列表
+
+```python
+print(li.pop(1))
+print(li)
+```
+
+> - 请删除列表中的第3个元素，并输出删除元素后的列表
+
+```python
+print(li.pop(2))
+```
+
+> - 请删除列表中的第2至4个元素，并输出删除元素后的列表
+
+```python
+li = ["ale", "eric", "rain", "alex", "luffy", "py"]
+del li[2:5]
+print(li)
+```
+
+> - 请将列表所有的元素反转，并输出反转后的列表
+
+```python
+li.reverse()
+print(li)
+```
+
+> - 请使用for、len、range输出列表的索引
+
+```python
+for index in range(len(li)):
+    print(index)
+```
+
+> - 请使用enumrate输出列表元素和序号（序号从100开始）
+
+```python
+for index, ele in enumerate(li):
+    print(index, ele)
+```
+
+> - 请使用for循环输出列表的所有元素
+
+```python
+for i in li:
+    print(i)
+```
+
+4 写代码，有如下列表，请按照功能要求实现每一个功能
+
+```py
+li = ["hello", 'seven', ["mon", ["h", "kelly"], 'all'], 123, 446]
+```
+
+> 请根据索引输出“Kelly”
+
+```python 
+print(li[2][1][1])
+```
+
+> 请使用索引找到’all’元素并将其修改为“ALL”，如
+
+```python
+li[2][2] = "ALL"
+print(li)
+```
+
+5 有如下变量，请实现要求的功能
+
+```py
+tu = ("alex", [11, 22, {"k1": 'v1', "k2": ["age", "name"], "k3": (11,22,33)}, 44])
+```
+
+> 讲述元组的特性
+
+```python
+不可变，没有添加和删除的方法
+```
+
+> 请问tu变量中的第一个元素“alex”是否可被修改？
+
+```python
+不能
+```
+
+> 请问tu变量中的”k2”对应的值是什么类型？是否可以被修改？如果可以，请在其中添加一个元素“Seven”
+
+```python
+列表，可以被修改
+tu[1][2]["k2"].append("seven")
+print(tu)
+```
+
+> 请问tu变量中的”k3”对应的值是什么类型？是否可以被修改？如果可以，请在其中添加一个元素“Seven“
+
+6、转换
+
+> 将字符串s = “alex”转换成列表
+
+```python
+print(list(s))
+```
+
+>  将字符串s = “alex”转换成元祖
+
+```python
+print(tuple(s))
+```
+
+>  将列表li = [“alex”, “seven”]转换成元组
+
+```python
+print(tuple(li))
+```
+
+> 将元组tu = (‘Alex’, “seven”)转换成列表
+
+```python
+print(list(tu))
+```
+
+> 将列表li = [“alex”, “seven”]转换成字典且字典的key按照10开始向后递增
+
+```python
+li = ["alex", "seven"]
+num = 10
+dic = {}
+for i in range(len(li)):
+    dic[num] = li[i]
+    num += 1
+print(dic)
+```
+
+7、元素分类
+
+>  有如下值li = [11,22,33,44,55,66,77,88,99,90]，将所有大于66的值保存至字典的第一个key中，将小于66的值保存至第二个key的值中。即：{‘k1’:大于66的所有值, ‘k2’:小于66的所有值}
+
+```python
+dic = {"k1":[], "k2":[]}
+for i in li:
+    if i > 66:
+        dic["k1"].append(i)
+    elif i < 66:
+        dic["k2"].append(i)
+print(dic)
+```
+
+8、在不改变列表数据结构的情况下找最大值li = [1,3,2,7,6,23,41,243,33,85,56]
+
+```python
+max_value = li[0]
+for i in li:
+    if i > max_value:
+        max_value = i
+print(max_value)
+```
+
+9 在不改变列表中数据排列结构的前提下，找出以下列表中最接近最大值和最小值的平均值 的数`li = [-100,1,3,2,7,6,120,121,140,23,411,99,243,33,85,56]`
+
+```python
+li = [-100,1,3,2,7,6,142, 120,121,140,23,411,99,243,33,85,56]
+max_value = li[0]
+min_value = li[0]
+for i in li:
+    if i > max_value:
+        max_value = i
+    if i < min_value:
+        min_value = i
+
+avg_value = (max_value+min_value)/2
+close_n = li[0]
+for i in li:
+    if abs(i - avg_value) < abs(close_n - avg_value):
+        close_n = i
+print(close_n)
+```
+
+10 利用for循环和range输出9 * 9乘法表
+
+```python
+for i in range(1, 10):
+    for j in range(1, i+1):
+        print("%s*%s=%s" % (j,i,i*j), end=" ")
+    print(end="\n")
+```
+
+11 求100以内的素数和
+
+```python
+total = 0
+for i in range(2, 101):
+    for j in range(2, i):
+        if i % j == 0:
+            break
+    else:
+        total += i
+print(total)
+```
+
+12 请说明python2 与python3中的默认编码是什么？
+
+```python
+python2默认是ascii
+python3默认是utf-8
+```
+
+13 为什么会出现中文乱码？你能列举出现乱码的情况有哪几种？
+
+```html
+1 文件编码是utf-8，打开文件的时候却指定了gbk的编码
+2 windows上的文件(windows上新建的文件默认都是gbk的编码)，传到mac电脑去打开(mac电脑默认的编码是utf-8)
 ```
 
 
