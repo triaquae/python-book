@@ -200,8 +200,8 @@ select name,salary*12 annual_salary from employee;
 where字句中可以使用：
 
 1. 比较运算符：&gt;&lt;&gt;= &lt;= &lt;&gt; !=  
-2. between 80 and 100 值在10到20之间  
-3. in\(80,90,100\) 值是10或20或30  
+2. between 80 and 100 值在80到100之间  
+3. in\(80,90,100\) 值是80或90或100  
 4. like 'egon%'  
     pattern可以是%或\_，  
     %表示任意多字符  
