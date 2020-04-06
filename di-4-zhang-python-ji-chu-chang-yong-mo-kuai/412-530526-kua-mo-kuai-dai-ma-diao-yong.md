@@ -76,5 +76,5 @@ print(settings.DATABASES)
 
 原因是由于manage.py在顶层，manage.py启动时项目的环境变量路径就会自动变成….xxx/my\_proj/这一级别
 
-![](https://book.apeland.cn/media/images/2019/04/11/image_FMkmC3b.png)
+![](http://m.qpic.cn/psc?/V11zJNSn1iYfOW/X7Nyc96QcijfM21*qh5ymbjeiuvFCSwGecv82oAuAjaaMQapNvtZlrVZZPqOdN1Bf5OY8UClvDVdKvbzT88nzQ!!/b&bo=YgVaAgAAAAADBx0!&rf=viewer_4)
 
