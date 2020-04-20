@@ -69,8 +69,8 @@ Empty set (0.00 sec)
 
 ```
 MariaDB [db1]> insert into t1 values
-    -> (1,'egon',18,'male'),
-    -> (2,'alex',81,'female')
+    -> (1,'egon','male',18),
+    -> (2,'alex','female',81)
     -> ;
 MariaDB [db1]> select * from t1;
 +------+------+------+--------+
